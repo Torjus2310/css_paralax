@@ -1,0 +1,51 @@
+html {
+    scroll-snap-type: Y mandatory;
+}
+
+
+body, html{ margin:0;padding:0;font-family:Arial; }
+* { box-sizing:border-box; }
+
+.parallax {
+    height:100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-snap-align:center;
+    scroll-snap-stop:always;
+}
+
+.bg1{
+background-image: url(./img/kamera.jpeg);
+}
+
+.bg2{
+background-image: url(./img/kamera.jpeg);
+}
+
+.bg3 {
+    background-image: url(./img/forest.jpeg);
+    display:grid;
+    place-items:center;
+    color:#efef;
+    padding:0 20vw 0 20vw;
+    font-size:1.5rem;
+}
+
+section {
+    height:100vh;
+    display:grid;
+    place-items:center;
+    background-color: #059E62;
+    color:#efef;
+    scroll-snap-align:center;
+    scroll-snap-stop:always;
+}
+
+section:last-of-type {
+    background-image: url(./img/cola.jpeg);
+    background-position:cover;
+    font-size:10vh;
+    background-attachment: fixed;
+    
+}
+
